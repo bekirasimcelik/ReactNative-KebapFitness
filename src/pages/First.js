@@ -2,6 +2,7 @@ import React from 'react';
 import {Button, SafeAreaView, StyleSheet, Text} from 'react-native';
 
 function First({navigation}) {
+  console.log(navigation);
   function navigateToPage() {
     navigation.navigate('SecondScreen');
   }
